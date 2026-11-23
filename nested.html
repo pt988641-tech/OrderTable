@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table Example</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        table {
+            border-collapse: separate;
+            border: 1px solid black;
+        }
+        th, td {
+            border : 1px solid black;
+            padding: 8px 12px;
+            text-align: center;
+        }
+        .nested-table th, . .nested-table td {
+            padding: 4px 8px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Example : Nested</caption>
+        <tr>
+            <th colspan="2" rowspan="2">CI</th>
+            <th rowspan="2">All<br>Gender</th>
+            <th>By Gender</th>
+        </tr>
+        <tr>
+            <td>
+                <table class="nested-table">
+                    <tr>
+                        <th>Males</th>
+                        <th>Females</th>
+                    </tr>
+                    <tr>
+                        <td>9215604</td>
+                        <td>4512358</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <th>Rural</th>
+            <th>6521458</th>
+            <th>4215389</th>
+            <th>4152348</th>
+        </tr>
+    </table>
+    
+</body>
+</html>
