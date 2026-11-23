@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Time Table</title>
+
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: skyblue;
+            width: 900px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 3px 4px 10px gray;
+        }
+
+        h2 {
+            text-align: center;
+            color: teal;
+            margin-top: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        th, td {
+            border: 1px solid #287c91;
+            padding: 7px 3px;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        .sub1 {
+            color: blue;
+        }
+
+        .sub2 {
+            color: red;
+        }
+
+        .sub3 {
+            color: purple;
+        }
+
+        .sub4 {
+            color: orange;
+        }
+
+        .sub5 {
+            color: brown;
+        }
+
+        .lunch {
+            font-weight: bold;
+            letter-spacing: 5px;
+        }
+
+        .library {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>COLLEGE TIME TABLE</h2>
+
+    <table>
+
+        <tr>
+            <th></th>
+            <th>8:30-9:30</th>
+            <th>9:30-10:30</th>
+            <th>10:30-11:30</th>
+            <th>11:30-12:30</th>
+            <th>12:30-2:00</th>
+            <th>2:00-3:00</th>
+            <th>3:00-4:00</th>
+            <th>4:00-4:30</th>
+        </tr>
+
+        <tr>
+            <th>MONDAY</th>
+            <td>---</td>
+            <td class="sub1">SUB1</td>
+            <td></td>
+            <td class="sub3">SUB3</td>
+            <td rowspan="6" class="lunch">
+                L<br>U<br>N<br>C<br>H
+            </td>
+            <td class="sub4">SUB4</td>
+            <td class="sub5">SUB5</td>
+            <td>Computer Class</td>
+        </tr>
+
+        <tr>
+            <th>TUESDAY</th>
+            <td class="sub1">SUB1</td>
+            <td class="sub2">SUB2</td>
+            <td class="sub3">SUB3</td>
+            <td>---</td>
+            <td class="sub4">SUB4</td>
+            <td>SUB5</td>
+            <td class="library">Library</td>
+        </tr>
+
+        <tr>
+            <th>WEDNESDAY</th>
+            <td></td>
+            <td class="sub4">SUB4</td>
+            <td class="sub3">SUB3</td>
+            <td>---</td>
+            <td colspan="3">Lab</td>
+        </tr>
+
+        <tr>
+            <th>THURSDAY</th>
+            <td class="sub1">SUB1</td>
+            <td class="sub2">SUB2</td>
+            <td class="sub4">SUB4</td>
+            <td>---</td>
+            <td class="sub4">SUB4</td>
+            <td class="sub3">SUB5</td>
+            <td class="library">Library</td>
+        </tr>
+
+        <tr>
+            <th>FRIDAY</th>
+            <td class="sub4">SUB4</td>
+            <td class="sub2">SUB2</td>
+            <td class="sub1">SUB3</td>
+            <td>---</td>
+            <td></td>
+            <td>SUB5</td>
+            <td class="library">Library</td>
+        </tr>
+
+        <tr>
+            <th>SATURDAY</th>
+            <td class="sub2">SUB2</td>
+            <td colspan="3">Activities</td>
+            <td></td>
+            <td>SUB5</td>
+            <td class="library">Library</td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>

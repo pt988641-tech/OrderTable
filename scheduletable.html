@@ -1,0 +1,98 @@
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 600px;
+        text-align: center;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+    }
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 600px;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th rowspan="2">Days</th>
+        <th colspan="6">Time</th>
+    </tr>
+
+    <tr>
+        <td>8:00</td>
+        <td>9:00</td>
+        <td>10:00</td>
+        <td>11:00</td>
+        <td>11:30</td>
+        <td>12:30</td>
+    </tr>
+
+    <tr>
+        <th>Mon</th>
+        <td>Course 1</td>
+        <td>Course 2</td>
+        <td>Course 3</td>
+        <td rowspan="5">B<br>R<br>E<br>A<br>K</td>
+        <td>Course 5</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <th>Tue</th>
+        <td colspan="2"></td>
+        <td>Course 2</td>
+        <td>Course 4</td>
+        <td>Course 1</td>
+    </tr>
+
+    <tr>
+        <th>Wed</th>
+        <td>Course 3</td>
+        <td colspan="2"></td>
+        <td>Course 2</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <th>Thr</th>
+        <td rowspan="2">Course 4</td>
+        <td>Course 2</td>
+        <td>Course 3</td>
+        <td colspan="2" rowspan="2">Thesis</td>
+    </tr>
+
+    <tr>
+        <th>Fri</th>
+        <td></td>
+        <td>Course 1</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
